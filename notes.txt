@@ -18,13 +18,16 @@ git config --global user.name "vivid.productions@icloud.com"
 git config --global user.email vivid.productions@icloud.com
 
 git add .
-git commit -m "My Django Girls app, first commit"
+git commit -m "My Django Girls app, first commit" #for naming commits before push
 
 git remote add origin https://github.com/Tha-vivid-one/my-first-blog.git
 git push -u origin HEAD
 
 pa_autoconfigure_django.py --python=3.8 https://github.com/Tha-vivid-one/my-first-blog.git
 
+
+cd ~/http://jarretttruett.pythonanywhere.com
+ $ git pull
 
 
 <h1>A heading</h1> for your most important heading
