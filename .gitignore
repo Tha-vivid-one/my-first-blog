@@ -29,4 +29,8 @@ $RECYCLE.BIN/
 # Visual Studio
 .vscode/
 .history/
-*.code-workspace
+*.code-workspace.gitignore
+blog/
+manage.py
+mysite/
+requirements.txt

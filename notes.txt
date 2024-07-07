@@ -1,0 +1,26 @@
+python manage.py runserver runs thhe server and makes the localhoast sites work
+http://127.0.0.1:8000/admin/     Django admin
+
+
+username: jarretttruett
+email address: vivid.productions@icloud.com
+password: firstblog
+
+Run server 
+python manage.py runserver
+
+source .venv/bin/activate
+django-admin startproject djangogirls .
+
+git init
+Initialized empty Git repository in ~/djangogirls/.git/
+git config --global user.name "vivid.productions@icloud.com"
+git config --global user.email vivid.productions@icloud.com
+
+git add .
+git commit -m "My Django Girls app, first commit"
+
+git remote add origin https://github.com/Tha-vivid-one/my-first-blog.git
+git push -u origin HEAD
+
+pa_autoconfigure_django.py --python=3.8 https://github.com/Tha-vivid-one/my-first-blog.git
